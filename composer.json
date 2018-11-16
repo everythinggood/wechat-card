@@ -1,0 +1,15 @@
+{
+
+  "autoload": {
+
+    "psr-4": {
+
+      "wechat\\" : "src",
+      "wechat\\request\\" : "src/Request",
+      "wechat\\response\\" : "src/Response"
+
+    }
+
+  }
+
+}
