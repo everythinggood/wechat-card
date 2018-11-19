@@ -1,7 +1,7 @@
 {
   "name": "ycy/wechat-card",
   "description": "wechat-card",
-  "type": "project",
+  "type": "library",
   "license": "MIT",
   "authors": [
     {
