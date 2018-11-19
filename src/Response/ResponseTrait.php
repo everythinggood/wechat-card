@@ -11,15 +11,15 @@ namespace wechat\response;
 
 trait ResponseTrait
 {
-
     /**
      * @param $arr
+     * @param $obj
      * @return object
      * @throws \ReflectionException
      */
-    protected function arrayToObject($arr)
+    protected function arrayToObject($arr,$obj)
     {
-        $reflect = new \ReflectionClass($this);
+        $reflect = new \ReflectionClass($obj);
         $hResponse = $reflect->newInstance();
         foreach ($arr as $key => $value) {
             if ($reflect->hasProperty($key)) {

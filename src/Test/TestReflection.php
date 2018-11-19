@@ -20,9 +20,21 @@ $response = $client->http_get("https://api.oppein.cn/wechat/accesstoken/getacces
 $access_token = json_decode($response,true)['access_token'];
 
 $client->setDomain('https://api.weixin.qq.com');
+//$request = new \wechat\request\DataCubeGetCardCardInfoRequest();
+//$request->access_token = $access_token;
+//$request->setBeginDate('2018-11-01');
+//$request->setEndDate("2018-11-18");
+//$request->setCondSource(\wechat\request\DataCubeGetCardCardInfoRequest::PLATFORM_CODE);
+//$request->setCardId("pjf3estmh5-0XjDBnTUgKO0cGBqU");
+//$response = new \wechat\response\DataCubeGetCardCardInfoResponse();
+///** @var \wechat\response\DataCubeGetCardCardInfoResponse $response */
+//$response = $client->execute($request,$response);
+//var_export($response);
+//exit;
+
 $request = new \wechat\request\CardBatchGetRequest();
 $request->access_token = $access_token;
-$request->setCount(10);
+$request->setCount(1);
 $request->setOffset(0);
 $request->setStatusList([\wechat\request\CardBatchGetRequest::CARD_STATUS_DISPATCH,\wechat\request\CardBatchGetRequest::CARD_STATUS_VERIFY_OK]);
 $response = new \wechat\response\CardBatchGetResponse();

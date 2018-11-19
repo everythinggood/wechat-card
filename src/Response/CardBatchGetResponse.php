@@ -26,6 +26,6 @@ class CardBatchGetResponse implements ResponseInterface
     public function setData($response)
     {
         $responseArr = json_decode($response,true);
-        return $this->arrayToObject($responseArr);
+        return $this->arrayToObject($responseArr,$this);
     }
 }

@@ -2,20 +2,17 @@
 /**
  * Created by PhpStorm.
  * User: ycy
- * Date: 18-11-16
- * Time: 上午1:04
+ * Date: 18-11-18
+ * Time: 下午7:19
  */
 
 namespace wechat\response;
 
 
-class CardGetResponse implements ResponseInterface
+class CardCodeUnavailableResponse implements ResponseInterface
 {
     use BaseResponse;
     use ResponseTrait;
-
-    public $card;
-
 
     /**
      * @param $json
@@ -24,7 +21,7 @@ class CardGetResponse implements ResponseInterface
      */
     public function setData($json)
     {
-        $responseArr = json_decode($json,true);
-        return $this->arrayToObject($responseArr,$this);
+        $arr = json_decode($json,true);
+        return $this->arrayToObject($arr,$this);
     }
 }
