@@ -1,16 +1,25 @@
 {
-
-  "autoload": {
-
-    "psr-4": {
-
-      "wechat\\" : "src",
-      "wechat\\request\\" : "src/Request",
-      "wechat\\response\\" : "src/Response",
-      "wechat\\response\\entity\\" : "src/Response/Entity"
-
+  "name": "ycy/wechat-card",
+  "description": "wechat-card",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ycy",
+      "email": "467678592@qq.com"
     }
-
+  ],
+  "minimum-stability": "dev",
+  "require-dev": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "wechat\\": "src",
+      "wechat\\request\\": "src/Request",
+      "wechat\\response\\": "src/Response",
+      "wechat\\response\\entity\\": "src/Response/Entity"
+    }
   },
   "require": {
     "ext-json": "*",
