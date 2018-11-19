@@ -18,7 +18,8 @@
       "wechat\\": "src",
       "wechat\\request\\": "src/Request",
       "wechat\\response\\": "src/Response",
-      "wechat\\response\\entity\\": "src/Response/Entity"
+      "wechat\\response\\entity\\": "src/Response/Entity",
+      "wechat\\util\\": "src/Util"
     }
   },
   "require": {
