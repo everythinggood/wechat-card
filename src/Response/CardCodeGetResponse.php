@@ -8,7 +8,11 @@
 
 namespace wechat\response;
 
-
+/**
+ * 查询code接口
+ * Class CardCodeGetResponse
+ * @package wechat\response
+ */
 class CardCodeGetResponse implements ResponseInterface
 {
 
@@ -21,9 +25,17 @@ class CardCodeGetResponse implements ResponseInterface
     public $outer_str;
     public $user_card_status;
 
+    const USER_CARD_NORMAL = 'normal';
+    const USER_CARD_CONSUMED = 'consumed';
+    const USER_CARD_EXPIRE = 'expire';
+    const USER_CARD_GIFTING = 'gifting';
+    const USER_CARD_TIMEOUT = 'timeout';
+    const USER_CARD_DELETE = 'delete';
+    const USER_CARD_UNAVAILABLE = 'unavailable';
+
     /**
      * @param $json
-     * @return object
+     * @return object|CardCodeGetResponse
      * @throws \ReflectionException
      */
     public function setData($json)
