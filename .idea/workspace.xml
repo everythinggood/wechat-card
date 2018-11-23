@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ab9fbec-95bd-43dc-a459-cc0fe1736f04" name="Default Changelist" comment="" />
+    <list default="true" id="1ab9fbec-95bd-43dc-a459-cc0fe1736f04" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/TestCardCodeConsume.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/TestCardCodeConsume.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/TestCardCodeDecrypt.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/TestCardCodeDecrypt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/TestCardUpdate.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/TestCardUpdate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/TestReflection.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/TestReflection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/TestUserCardList.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/TestUserCardList.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,16 +32,17 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="gitignore" value="7" />
           <entry key="json" value="249" />
-          <entry key="php" value="7827" />
+          <entry key="php" value="7831" />
           <entry key="txt" value="148" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="249" />
-          <entry key="PHP" value="7827" />
-          <entry key="PLAIN_TEXT" value="148" />
+          <entry key="PHP" value="7831" />
+          <entry key="PLAIN_TEXT" value="155" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -44,21 +53,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="gitignore" value="2" />
           <entry key="json" value="4" />
           <entry key="lock" value="1" />
-          <entry key="php" value="59" />
+          <entry key="php" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="5" />
-          <entry key="PHP" value="59" />
+          <entry key="PHP" value="65" />
+          <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.actions" />
       <usages-collector id="statistics.php.new.test" />
       <usages-collector id="statistics.php.composer.command.options" />
-      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.local" value="1" />
+          <entry key="git.branch.checkout.remote" value="1" />
+        </counts>
+      </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.php.rename.constructor" />
     </session>
@@ -68,17 +84,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Request/CardCodeConsumeRequest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
+            <state relative-caret-position="884">
               <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test/TestReflection.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-114">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test/TestCardCodeConsume.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="153">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Test/TestUserCardList.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test/TestCardUpdate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test/TestCardCodeDecrypt.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -87,6 +148,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -114,25 +180,26 @@
         <option value="$PROJECT_DIR$/src/Response/CardGetResponse.php" />
         <option value="$PROJECT_DIR$/src/Response/Entity/DataCubeCardInfo.php" />
         <option value="$PROJECT_DIR$/src/Response/DataCubeGetCardCardInfoResponse.php" />
-        <option value="$PROJECT_DIR$/src/Test/TestReflection.php" />
         <option value="$PROJECT_DIR$/src/Util/EncyptUtils.php" />
-        <option value="$PROJECT_DIR$/src/Test/TestCardUpdate.php" />
         <option value="$PROJECT_DIR$/src/Response/CardUserGetCardListResponse.php" />
         <option value="$PROJECT_DIR$/src/Request/CardUserGetCardListRequest.php" />
         <option value="$PROJECT_DIR$/src/Request/CardCodeGetRequest.php" />
         <option value="$PROJECT_DIR$/src/Request/CardCodeUnavailableRequest.php" />
         <option value="$PROJECT_DIR$/src/Response/CardCodeUnavailableResponse.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/src/Test/TestUserCardList.php" />
         <option value="$PROJECT_DIR$/src/Request/CardCodeDecyptRequest.php" />
         <option value="$PROJECT_DIR$/src/Response/CardCodeDecryptResponse.php" />
-        <option value="$PROJECT_DIR$/src/Test/TestCardCodeDecrypt.php" />
         <option value="$PROJECT_DIR$/src/Request/CardCodeDecryptRequest.php" />
         <option value="$PROJECT_DIR$/src/Response/CardCodeConsumeResponse.php" />
         <option value="$PROJECT_DIR$/src/Response/CardCodeGetResponse.php" />
         <option value="$PROJECT_DIR$/src/Request/CardCodeConsume.php" />
-        <option value="$PROJECT_DIR$/src/Test/TestCardCodeConsume.php" />
         <option value="$PROJECT_DIR$/src/Request/CardCodeConsumeRequest.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/Test/TestCardCodeConsume.php" />
+        <option value="$PROJECT_DIR$/src/Test/TestCardCodeDecrypt.php" />
+        <option value="$PROJECT_DIR$/src/Test/TestCardUpdate.php" />
+        <option value="$PROJECT_DIR$/src/Test/TestReflection.php" />
+        <option value="$PROJECT_DIR$/src/Test/TestUserCardList.php" />
       </list>
     </option>
   </component>
@@ -266,18 +333,18 @@
       <updated>1542352883065</updated>
       <workItem from="1542352884611" duration="7421000" />
       <workItem from="1542587529599" duration="17610000" />
-      <workItem from="1542940480261" duration="2864000" />
+      <workItem from="1542940480261" duration="3458000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27895000" />
+    <option name="totallyTimeSpent" value="28489000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1127" height="892" extended-state="6" />
+    <frame x="67" y="25" width="1851" height="901" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35522664" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21274239" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -442,29 +509,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/TestReflection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.lock">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/TestCardUpdate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="13" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/TestUserCardList.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" selection-start-line="8" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Response/CardCodeDecryptResponse.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -508,13 +554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/TestCardCodeDecrypt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="48" lean-forward="true" selection-start-line="20" selection-end-line="26" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Response/CardCodeGetResponse.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -534,15 +573,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Request/CardCodeConsumeRequest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
+        <state relative-caret-position="884">
           <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test/TestCardCodeConsume.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        <state relative-caret-position="153">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/TestCardCodeDecrypt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/TestCardUpdate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/TestReflection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/TestUserCardList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
         </state>
       </provider>
     </entry>
