@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'wechat\\util\\' => array($baseDir . '/src/Util'),
     'wechat\\response\\entity\\' => array($baseDir . '/src/Response/Entity'),
     'wechat\\response\\' => array($baseDir . '/src/Response'),
     'wechat\\request\\' => array($baseDir . '/src/Request'),

@@ -20,7 +20,7 @@ class CardCodeDecryptRequest implements RequestInterface
     /**
      * @param mixed $encrypt_code
      */
-    public function setEncryptCode($encrypt_code): void
+    public function setEncryptCode($encrypt_code)
     {
         $this->encrypt_code = $encrypt_code;
     }

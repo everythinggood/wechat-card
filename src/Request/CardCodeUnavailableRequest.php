@@ -27,7 +27,7 @@ class CardCodeUnavailableRequest implements RequestInterface
     /**
      * @param mixed $card_id
      */
-    public function setCardId($card_id): void
+    public function setCardId($card_id)
     {
         $this->card_id = $card_id;
     }
@@ -35,7 +35,7 @@ class CardCodeUnavailableRequest implements RequestInterface
     /**
      * @param mixed $code
      */
-    public function setCode($code): void
+    public function setCode($code)
     {
         $this->code = $code;
     }
@@ -43,7 +43,7 @@ class CardCodeUnavailableRequest implements RequestInterface
     /**
      * @param mixed $reason
      */
-    public function setReason($reason): void
+    public function setReason($reason)
     {
         $this->reason = $reason;
     }

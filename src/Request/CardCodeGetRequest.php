@@ -30,7 +30,7 @@ class CardCodeGetRequest implements RequestInterface
     /**
      * @param mixed $card_id
      */
-    public function setCardId($card_id): void
+    public function setCardId($card_id)
     {
         $this->card_id = $card_id;
     }
@@ -38,7 +38,7 @@ class CardCodeGetRequest implements RequestInterface
     /**
      * @param mixed $code
      */
-    public function setCode($code): void
+    public function setCode($code)
     {
         $this->code = $code;
     }
@@ -46,7 +46,7 @@ class CardCodeGetRequest implements RequestInterface
     /**
      * @param mixed $check_consume
      */
-    public function setCheckConsume($check_consume): void
+    public function setCheckConsume($check_consume)
     {
         $this->check_consume = $check_consume;
     }

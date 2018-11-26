@@ -25,7 +25,7 @@ class DataCubeGetCardBizuinInfoRequest implements RequestInterface
     /**
      * @param mixed $begin_date
      */
-    public function setBeginDate($begin_date): void
+    public function setBeginDate($begin_date)
     {
         $this->begin_date = $begin_date;
     }
@@ -33,7 +33,7 @@ class DataCubeGetCardBizuinInfoRequest implements RequestInterface
     /**
      * @param mixed $end_date
      */
-    public function setEndDate($end_date): void
+    public function setEndDate($end_date)
     {
         $this->end_date = $end_date;
     }
@@ -41,7 +41,7 @@ class DataCubeGetCardBizuinInfoRequest implements RequestInterface
     /**
      * @param mixed $cond_source
      */
-    public function setCondSource($cond_source): void
+    public function setCondSource($cond_source)
     {
         $this->cond_source = $cond_source;
     }

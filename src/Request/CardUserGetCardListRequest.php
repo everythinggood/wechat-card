@@ -25,7 +25,7 @@ class CardUserGetCardListRequest implements RequestInterface
     /**
      * @param mixed $openid
      */
-    public function setOpenid($openid): void
+    public function setOpenid($openid)
     {
         $this->openid = $openid;
     }
@@ -33,7 +33,7 @@ class CardUserGetCardListRequest implements RequestInterface
     /**
      * @param mixed $card_id
      */
-    public function setCardId($card_id): void
+    public function setCardId($card_id)
     {
         $this->card_id = $card_id;
     }

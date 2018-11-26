@@ -20,7 +20,7 @@ class CardGetRequest implements RequestInterface
     /**
      * @param mixed $card_id
      */
-    public function setCardId($card_id): void
+    public function setCardId($card_id)
     {
         $this->card_id = $card_id;
     }

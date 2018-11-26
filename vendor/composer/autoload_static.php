@@ -9,6 +9,7 @@ class ComposerStaticInit5e03d9ad79359872a776935c30beee3e
     public static $prefixLengthsPsr4 = array (
         'w' => 
         array (
+            'wechat\\util\\' => 12,
             'wechat\\response\\entity\\' => 23,
             'wechat\\response\\' => 16,
             'wechat\\request\\' => 15,
@@ -17,6 +18,10 @@ class ComposerStaticInit5e03d9ad79359872a776935c30beee3e
     );
 
     public static $prefixDirsPsr4 = array (
+        'wechat\\util\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Util',
+        ),
         'wechat\\response\\entity\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src/Response/Entity',
