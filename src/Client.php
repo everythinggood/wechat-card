@@ -79,7 +79,7 @@ class Client
         return $content;
     }
 
-    public function http_post($url,$data)
+    public function http_post($url,$data,$option=array('Content-Type: application/json'))
     {
         $curl = curl_init();
         curl_setopt($curl, CURLOPT_URL, $url);
@@ -92,9 +92,7 @@ class Client
         curl_setopt($curl, CURLOPT_POSTFIELDS, $data);
         curl_setopt($curl, CURLOPT_POST, 1);
         curl_setopt($curl, CURLOPT_HEADER, 0);
-        curl_setopt($curl, CURLOPT_HTTPHEADER, array(
-            'Content-Type: application/json'
-        ));
+        curl_setopt($curl, CURLOPT_HTTPHEADER, $option);
         $content = curl_exec($curl);
         curl_close($curl);
         return $content;

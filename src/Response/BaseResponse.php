@@ -12,7 +12,7 @@ namespace wechat\response;
 trait BaseResponse
 {
 
-    public $errcode;
-    public $errmsg;
+    public $errcode = 0;
+    public $errmsg = 'success';
 
 }

@@ -17,7 +17,9 @@
     "psr-4": {
       "wechat\\": "src",
       "wechat\\request\\": "src/Request",
+      "wechat\\MiniProgram\\Request\\": "src/Request/MiniProgram",
       "wechat\\response\\": "src/Response",
+      "wechat\\MiniProgram\\Response\\": "src/Response/MiniProgram",
       "wechat\\response\\entity\\": "src/Response/Entity",
       "wechat\\util\\": "src/Util"
     }
