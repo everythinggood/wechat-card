@@ -20,6 +20,7 @@ class MiniGetWXACodeUnlimitRequest implements RequestInterface
     public $access_token;
 
     /**
+     * must
      * @example 不支持%
      * @var string
      */

@@ -13,6 +13,8 @@ class ComposerStaticInit5e03d9ad79359872a776935c30beee3e
             'wechat\\response\\entity\\' => 23,
             'wechat\\response\\' => 16,
             'wechat\\request\\' => 15,
+            'wechat\\MiniProgram\\response\\' => 28,
+            'wechat\\MiniProgram\\Request\\' => 27,
             'wechat\\' => 7,
         ),
     );
@@ -33,6 +35,14 @@ class ComposerStaticInit5e03d9ad79359872a776935c30beee3e
         'wechat\\request\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src/Request',
+        ),
+        'wechat\\MiniProgram\\response\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Response/MiniProgram',
+        ),
+        'wechat\\MiniProgram\\Request\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Request/MiniProgram',
         ),
         'wechat\\' => 
         array (

@@ -10,5 +10,7 @@ return array(
     'wechat\\response\\entity\\' => array($baseDir . '/src/Response/Entity'),
     'wechat\\response\\' => array($baseDir . '/src/Response'),
     'wechat\\request\\' => array($baseDir . '/src/Request'),
+    'wechat\\MiniProgram\\response\\' => array($baseDir . '/src/Response/MiniProgram'),
+    'wechat\\MiniProgram\\Request\\' => array($baseDir . '/src/Request/MiniProgram'),
     'wechat\\' => array($baseDir . '/src'),
 );
